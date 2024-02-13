@@ -58,6 +58,7 @@ myFunction(2,3)
 
 //--------- Stack And Heap --------------
 
+//Stack
 let myName = "Shweta Chaurasiya"
 let anotherName = myName
 anotherName ="SAWO"
@@ -70,6 +71,7 @@ let user1 = {
     password : "2345"
 }
 
+//Heap
 let user2 = user1
 user2.email = "sawo@gmail.com"
 
