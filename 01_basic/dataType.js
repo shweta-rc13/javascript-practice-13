@@ -35,6 +35,8 @@ const bigNumber= 1234567890987654321n
 3) Functions
 
 */
+
+
 //Array
 const color = ["Blue", "Black", "Yellow", "White"];
 console.log(color);
@@ -54,5 +56,25 @@ const myFunction = function(a,b){
 }
 myFunction(2,3)
 
+//--------- Stack And Heap --------------
 
+let myName = "Shweta Chaurasiya"
+let anotherName = myName
+anotherName ="SAWO"
+
+console.log(myName);
+console.log(anotherName);
+
+let user1 = {
+    email : "user@gmail.com",
+    password : "2345"
+}
+
+let user2 = user1
+user2.email = "sawo@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
+//stack me copy milta hai and heap me reference milta hai
 
