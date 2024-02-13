@@ -13,3 +13,6 @@ Comparison convert null to a number, treating it as 0.*/
 console.log(undefined == 0); //false
 console.log(undefined < 0);  // False
 console.log(undefined > 0);  //false
+
+
+console.log("2" === 2);
