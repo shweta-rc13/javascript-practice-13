@@ -30,6 +30,7 @@ jsuser.greeting2 = function(){
 console.log(jsuser.greeting2());  */
 
 
+/*
 //const tinderuser = new Object()
 const tinderuser = {}
 tinderuser.id ="123abc"
@@ -57,4 +58,22 @@ const obj4 = {5: "a", 6: "b"}
 //const obj3 = Object.assign({}, obj1, obj2, obj4)
 const obj3 = {...obj1, ...obj2, ...obj4}
 
-//console.log(obj3);
+//console.log(obj3);            */
+
+
+
+//Object Destructuring
+const course = {
+    coursename : "JS in Hindi",
+    price : "999",
+    courseInstructor : "Hitesh"
+}
+//course.courseInstructor
+// const {courseInstructor} = course
+// console.log(courseInstructor);
+
+//    OR
+
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
