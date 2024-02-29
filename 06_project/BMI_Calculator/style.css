@@ -1,0 +1,21 @@
+
+.container{
+    padding-left: 30%;
+    padding-top: 10%;
+    
+ 
+}
+h1{
+   color: blue;
+   letter-spacing: 5px;
+   
+}
+button{
+margin-top: 20px;
+margin-left: 100px;
+    box-sizing: border-box;
+    border-color: black;
+}
+#result{
+    margin-top: 20px;
+}
